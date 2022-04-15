@@ -1,0 +1,3 @@
+C:/Users/guiratec/Downloads/TAREA/Recursividad_Sucesion_Sumatoria_N4/cmake-build-debug/CMakeFiles/Recursividad_Sucesion_Sumatoria_N4.dir
+C:/Users/guiratec/Downloads/TAREA/Recursividad_Sucesion_Sumatoria_N4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/guiratec/Downloads/TAREA/Recursividad_Sucesion_Sumatoria_N4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
