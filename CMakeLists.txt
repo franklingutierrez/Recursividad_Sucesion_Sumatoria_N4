@@ -3,4 +3,4 @@ project(Recursividad_Sucesion_Sumatoria_N4)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Recursividad_Sucesion_Sumatoria_N4 main.cpp)
+add_executable(Recursividad_Sucesion_Sumatoria_N4 problema4.cpp)
