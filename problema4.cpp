@@ -6,22 +6,23 @@ Autor --> Franklin Hiustong Gutierrez Arizaca*/
 int suma=0;//variable global
 using namespace std;
 //============= FUNCION===========
-int sumatoria(int a, int b, int limite){
-    int aux = a+b;
-    cout<<" "<<aux;
-    if(limite>=0){
-        return sumatoria(a,aux,limite-1);
+int sumatoria(int n, int i, int n2){
+    //condicion de parada
+    if(i>=n2){
+        cout<<"\n"<<i<<" ";
+        return n+i;
     }
-    return 0;
-
+    //caso general
+        cout<<"\n"<<i<<" ";
+        return n+i+sumatoria(n,i+10,n2);
 }
-
 //================================
+
 int main() {
     int num, limit;
     cout<<"Ingrese un valor para [n]: "; cin>>num;
     cout<<"Ingrese un limite: "; cin>>limit;
-    sumatoria(num,12, limit);
+    cout<<sumatoria(num,12, limit);
 
     getch();
     return 0;
